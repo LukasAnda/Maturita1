@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/wlach/CLionProjects/maturita/main.c
+stdio.h
+-
+malloc.h
+-
+string.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,452 @@
+private void createTest(){
+        List<Question> questions = new ArrayList<>();
+        long id = 1;
+        Question         q = new Question(id++,
+                "https://imgur.com/5l35aDc",
+                "https://imgur.com/kMSwpxF",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/5l35aDc",
+                "https://imgur.com/ApDY8eN",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/5l35aDc",
+                "https://imgur.com/qC3GQ66",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/5l35aDc",
+                "https://imgur.com/CGoqGHy",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/5l35aDc",
+                "https://imgur.com/xOeT91P",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/5l35aDc",
+                "https://imgur.com/US7l0zm",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("rom·n","soci·lny rom·n","politick˝ pamflet"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/5l35aDc",
+                "https://imgur.com/DObCNJU",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("mlad· zmena","naöa mlad· zmena"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/5l35aDc",
+                "https://imgur.com/fjjYEIQ",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("nech ûije","Nech ûije","kriËia: nech ûije","KriËia: nech ûije"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/kPs29A4",
+                "https://imgur.com/t5D1P5O",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/kPs29A4",
+                "https://imgur.com/hmjenBJ",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/kPs29A4",
+                "https://imgur.com/2Cd1TM2",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/kPs29A4",
+                "https://imgur.com/krrIQlQ",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/kPs29A4",
+                "https://imgur.com/Ih4lVBA",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/kPs29A4",
+                "https://imgur.com/VAqrwrv",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("KomenskÈho","na KomenskÈho 24"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/kPs29A4",
+                "https://imgur.com/8mfroTO",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("v Koöiciach","Koöice"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/kPs29A4",
+                "https://imgur.com/N1olrNk",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("Huna"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/TWUrfiD",
+                "https://imgur.com/FKV8b13",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/TWUrfiD",
+                "https://imgur.com/HHvwsJ6",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/TWUrfiD",
+                "https://imgur.com/1kacuhw",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/TWUrfiD",
+                "https://imgur.com/CCoUAcj",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/TWUrfiD",
+                "https://imgur.com/CZ95QPC",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/TWUrfiD",
+                "https://imgur.com/5k8oIK4",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("pauza","o pauze","prest·vka","o prest·vke"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/TWUrfiD",
+                "https://imgur.com/7ztC3vV",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("rÈtorika"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/TWUrfiD",
+                "https://imgur.com/c3ODJl7",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("laici","Laici"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ObYbPLQ",
+                "https://imgur.com/kekEK4j",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ObYbPLQ",
+                "https://imgur.com/ANJmNCK",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ObYbPLQ",
+                "https://imgur.com/okaF27Y",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ObYbPLQ",
+                "https://imgur.com/AkUssv9",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ObYbPLQ",
+                "https://imgur.com/B6SZ5ab",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ObYbPLQ",
+                "https://imgur.com/NVXwZnm",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("mohli","chcieù"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ObYbPLQ",
+                "https://imgur.com/wY2DBas",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("ËÌslovka","ËÌslovky","ËÌslovkou"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ObYbPLQ",
+                "https://imgur.com/6DTjhLo",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("Tak","ûe","za","tak","ûe za"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/NoaZV9M",
+                "https://imgur.com/AR59nCR",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/NoaZV9M",
+                "https://imgur.com/pEpa6RK",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/NoaZV9M",
+                "https://imgur.com/4Emg8xM",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/NoaZV9M",
+                "https://imgur.com/kIpx9ok",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/NoaZV9M",
+                "https://imgur.com/JFKXvFS",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/NoaZV9M",
+                "https://imgur.com/KQIGCpS",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("Samo Chal˙pka"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/NoaZV9M",
+                "https://imgur.com/LBNhAda",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("Anton Bernol·k"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/NoaZV9M",
+                "https://imgur.com/l2V4RSz",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("BratovÈ","bratovÈ"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ZiIMdQ5",
+                "https://imgur.com/Lnm8Prp",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ZiIMdQ5",
+                "https://imgur.com/NdOufgI",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ZiIMdQ5",
+                "https://imgur.com/dRj8ap3",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ZiIMdQ5",
+                "https://imgur.com/tw6oUXk",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ZiIMdQ5",
+                "https://imgur.com/jK5RoLQ",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ZiIMdQ5",
+                "https://imgur.com/wTjhru1",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("˙mrtiach","tlmoËenÌ","˙mrtie","tlmoËenie"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ZiIMdQ5",
+                "https://imgur.com/i4z5lyY",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("slovansk·","do slovanskej","juûnoslovansk·","do juûnoslovanskej"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/ZiIMdQ5",
+                "https://imgur.com/VRD7Ofk",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("publicistick˝","ûurnalistick˝"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/jC04irF",
+                "https://imgur.com/kCTkAnz",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/jC04irF",
+                "https://imgur.com/3S4xD5b",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/jC04irF",
+                "https://imgur.com/Kytp89I",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/jC04irF",
+                "https://imgur.com/UlveiKM",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/jC04irF",
+                "https://imgur.com/ohBRr0p",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/jC04irF",
+                "https://imgur.com/2NV2eFn",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("tys'"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/jC04irF",
+                "https://imgur.com/3L7ySdg",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("ako","ako","a","a"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/jC04irF",
+                "https://imgur.com/2R7GhrX",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("desaù","10"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/Emga8JT",
+                "https://imgur.com/5i2kVka",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/Emga8JT",
+                "https://imgur.com/jRRkiZK",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/Emga8JT",
+                "https://imgur.com/DEfebOw",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/Emga8JT",
+                "https://imgur.com/SAiTWTJ",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/Emga8JT",
+                "https://imgur.com/msKJPhw",
+                TYPE_SJL_ABCD,
+                SJL_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/Emga8JT",
+                "https://imgur.com/hnqKxj4",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("predmetov·"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/Emga8JT",
+                "https://imgur.com/E22t9Nt",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("Kettlovci"));
+        questions.add(q);
+        q = new Question(id++,
+                "https://imgur.com/Emga8JT",
+                "https://imgur.com/PxU7KZr",
+                TYPE_SJL_RESPONSE,
+                Collections.<String>emptyList()
+                Arrays.asList("hniezdo"));
+        questions.add(q);
+    }

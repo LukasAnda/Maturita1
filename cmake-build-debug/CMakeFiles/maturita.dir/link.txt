@@ -1,0 +1,3 @@
+"E:\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\maturita.dir/objects.a
+"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\ar.exe" cr CMakeFiles\maturita.dir/objects.a @CMakeFiles\maturita.dir\objects1.rsp
+"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" -g   -Wl,--whole-archive CMakeFiles\maturita.dir/objects.a -Wl,--no-whole-archive  -o maturita.exe -Wl,--out-implib,libmaturita.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\maturita.dir\linklibs.rsp

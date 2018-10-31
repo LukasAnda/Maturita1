@@ -1,0 +1,228 @@
+private void pridajMatTest2014(FirebaseFirestore db){
+        List<Question> questions = new ArrayList<>();
+        long id = 1;
+        Question        q = new Question(id++,
+                "",
+                "https://imgur.com/VdyyMiM",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("26"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/2lOq07J",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("14"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/ll06Qe1",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("-7"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/nS1enFQ",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("8"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/pU9RQmw",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("-8"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/2xcUCdx",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("2697,74 a 2697,75"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/lyY9DC1",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("9372"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/lm1vNej",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("4"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/hJvHDfC",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("35,26"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/TkfGl7k",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("3"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/ExqgmZy",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("243"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/Lb1iJ4v",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("8"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/uvaviwV",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("-4"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/kyTENKN",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("21"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/IiLqBWc",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("102"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/jFrEES7",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("5"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/xSrRF6K",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("25"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/6FZjXxj",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("10"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/WuAVxq3",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("3"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/5AWLhVh",
+                TYPE_MAT_RESPONSE,
+                Collections.<String>emptyList(),
+                Arrays.asList("67"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/VDESIBS",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/ha2Jg0E",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/7GMJc9r",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("C"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/kvz4WZi",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/FitOsmS",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/pkIjn32",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/KXKoJ8D",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/7bbnBEy",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("A"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/nLwYB2T",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("B"));
+        questions.add(q);
+        q = new Question(id++,
+                "",
+                "https://imgur.com/XQQIjyG",
+                TYPE_MAT_ABCD,
+                MAT_ABCD,
+                Arrays.asList("D"));
+        questions.add(q);
+        Test test = new Test("Matematika 2014", "2106", "mat", questions);
+        db.collection("test").document(test.getName())                .set(test)
+                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Log.d("TAG", "DocumentSnapshot successfully written!");
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Log.w("TAG", "Error writing document", e);
+                    }
+                });
+}
