@@ -4,25 +4,25 @@
 #include "functions.h"
 
 int main() {
-    char* what = (char*)malloc(250 * sizeof(char));
-    int rok, cislo_testu;
+    char* test_type = (char*)malloc(250 * sizeof(char));
+    int year, test_number;
 
     printf("Subject:\n");
-    fgets(what, 250 - 1, stdin);
-    what[strlen(what) - 1] = '\0';
+    fgets(test_type, 250 - 1, stdin);
+    test_type[strlen(test_type) - 1] = '\0';
 
-    printf("rok:\n");
-    scanf("%d", &rok);
-    printf("cislo testu:\n");
-    scanf("%d", &cislo_testu);
+    printf("Year:\n");
+    scanf("%d", &year);
+    printf("Teest number:\n");
+    scanf("%d", &test_number);
 
-    if (strcmp(what, "sjl") == 0){
+    if (strcmp(test_type, "sjl") == 0){
         sjl();
     }
-    if (strcmp(what, "mat") == 0){
-        mat(rok, cislo_testu);
+    if (strcmp(test_type, "mat") == 0){
+        mat(year, test_number);
     }
-    if (strcmp(what, "anj") == 0){
+    if (strcmp(test_type, "anj") == 0){
         anj();
     }
     return 0;

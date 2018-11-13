@@ -5,7 +5,7 @@
 #include <string.h>
 #include "functions.h"
 
-void mat(int rok, int cislo_testu){
+void mat(int year, int test_number){
     FILE* fr;
     FILE *fw;
     char* line = (char*)malloc(700 * sizeof(char));
@@ -20,7 +20,7 @@ void mat(int rok, int cislo_testu){
     fprintf(fw, "private void pridajMatTest%d(FirebaseFirestore db){\n"
             "        List<Question> questions = new ArrayList<>();\n"
             "        long id = 1;\n"
-            "        Question", rok);
+            "        Question", year);
 
     while(fgets(line, 700, fr) != NULL){
         line[strlen(line) - 1] = '\0';
@@ -63,7 +63,7 @@ void mat(int rok, int cislo_testu){
             "                        Log.w(\"TAG\", \"Error writing document\", e);\n"
             "                    }\n"
             "                });\n"
-            "}", rok, cislo_testu);
+            "}", year, test_number);
 
     if (fclose(fr) == EOF || fclose(fw) == EOF){
         printf("Failed..\n");

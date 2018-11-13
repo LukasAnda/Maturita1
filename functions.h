@@ -6,5 +6,5 @@
 #endif //MATURITA_FUNCTIONS_H
 
 void sjl(void);
-void mat(int rok, int cislo_testu);
+void mat(int year, int test_number);
 void anj(void);
