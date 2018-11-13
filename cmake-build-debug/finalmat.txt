@@ -1,4 +1,4 @@
-private void pridajMatTest2009(FirebaseFirestore db){
+private void pridajMatTest2017(FirebaseFirestore db){
         List<Question> questions = new ArrayList<>();
         long id = 1;
         Question        q = new Question(id++,
@@ -211,7 +211,7 @@ private void pridajMatTest2009(FirebaseFirestore db){
                 MAT_ABCD,
                 Arrays.asList("C"));
         questions.add(q);
-        Test test = new Test("Matematika 2009", "3340", "mat", questions);
+        Test test = new Test("Matematika 2017", "2143", "mat", questions);
         db.collection("test").document(test.getName())                .set(test)
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override

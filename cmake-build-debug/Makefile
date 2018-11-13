@@ -122,6 +122,33 @@ maturita/fast:
 	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/build
 .PHONY : maturita/fast
 
+anj.obj: anj.c.obj
+
+.PHONY : anj.obj
+
+# target to build an object file
+anj.c.obj:
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/anj.c.obj
+.PHONY : anj.c.obj
+
+anj.i: anj.c.i
+
+.PHONY : anj.i
+
+# target to preprocess a source file
+anj.c.i:
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/anj.c.i
+.PHONY : anj.c.i
+
+anj.s: anj.c.s
+
+.PHONY : anj.s
+
+# target to generate assembly for a file
+anj.c.s:
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/anj.c.s
+.PHONY : anj.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -149,6 +176,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/main.c.s
 .PHONY : main.c.s
 
+mat.obj: mat.c.obj
+
+.PHONY : mat.obj
+
+# target to build an object file
+mat.c.obj:
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/mat.c.obj
+.PHONY : mat.c.obj
+
+mat.i: mat.c.i
+
+.PHONY : mat.i
+
+# target to preprocess a source file
+mat.c.i:
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/mat.c.i
+.PHONY : mat.c.i
+
+mat.s: mat.c.s
+
+.PHONY : mat.s
+
+# target to generate assembly for a file
+mat.c.s:
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/mat.c.s
+.PHONY : mat.c.s
+
+sjl.obj: sjl.c.obj
+
+.PHONY : sjl.obj
+
+# target to build an object file
+sjl.c.obj:
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/sjl.c.obj
+.PHONY : sjl.c.obj
+
+sjl.i: sjl.c.i
+
+.PHONY : sjl.i
+
+# target to preprocess a source file
+sjl.c.i:
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/sjl.c.i
+.PHONY : sjl.c.i
+
+sjl.s: sjl.c.s
+
+.PHONY : sjl.s
+
+# target to generate assembly for a file
+sjl.c.s:
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/sjl.c.s
+.PHONY : sjl.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +239,18 @@ help:
 	@echo ... maturita
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... anj.obj
+	@echo ... anj.i
+	@echo ... anj.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mat.obj
+	@echo ... mat.i
+	@echo ... mat.s
+	@echo ... sjl.obj
+	@echo ... sjl.i
+	@echo ... sjl.s
 .PHONY : help
 
 

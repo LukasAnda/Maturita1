@@ -74,7 +74,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/wlach/CLionProjects/maturita/anj.c">
+			<Option target="maturita"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/maturita/functions.h">
+			<Option target="maturita"/>
+		</Unit>
 		<Unit filename="C:/Users/wlach/CLionProjects/maturita/main.c">
+			<Option target="maturita"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/maturita/mat.c">
+			<Option target="maturita"/>
+		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/maturita/sjl.c">
 			<Option target="maturita"/>
 		</Unit>
 		<Unit filename="C:/Users/wlach/CLionProjects/maturita/CMakeLists.txt">

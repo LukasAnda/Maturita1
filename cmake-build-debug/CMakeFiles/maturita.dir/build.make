@@ -80,19 +80,97 @@ CMakeFiles/maturita.dir/main.c.obj.provides: CMakeFiles/maturita.dir/main.c.obj.
 CMakeFiles/maturita.dir/main.c.obj.provides.build: CMakeFiles/maturita.dir/main.c.obj
 
 
+CMakeFiles/maturita.dir/sjl.c.obj: CMakeFiles/maturita.dir/flags.make
+CMakeFiles/maturita.dir/sjl.c.obj: ../sjl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\maturita\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/maturita.dir/sjl.c.obj"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\maturita.dir\sjl.c.obj   -c C:\Users\wlach\CLionProjects\maturita\sjl.c
+
+CMakeFiles/maturita.dir/sjl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/maturita.dir/sjl.c.i"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\maturita\sjl.c > CMakeFiles\maturita.dir\sjl.c.i
+
+CMakeFiles/maturita.dir/sjl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/maturita.dir/sjl.c.s"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\maturita\sjl.c -o CMakeFiles\maturita.dir\sjl.c.s
+
+CMakeFiles/maturita.dir/sjl.c.obj.requires:
+
+.PHONY : CMakeFiles/maturita.dir/sjl.c.obj.requires
+
+CMakeFiles/maturita.dir/sjl.c.obj.provides: CMakeFiles/maturita.dir/sjl.c.obj.requires
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/sjl.c.obj.provides.build
+.PHONY : CMakeFiles/maturita.dir/sjl.c.obj.provides
+
+CMakeFiles/maturita.dir/sjl.c.obj.provides.build: CMakeFiles/maturita.dir/sjl.c.obj
+
+
+CMakeFiles/maturita.dir/mat.c.obj: CMakeFiles/maturita.dir/flags.make
+CMakeFiles/maturita.dir/mat.c.obj: ../mat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\maturita\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/maturita.dir/mat.c.obj"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\maturita.dir\mat.c.obj   -c C:\Users\wlach\CLionProjects\maturita\mat.c
+
+CMakeFiles/maturita.dir/mat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/maturita.dir/mat.c.i"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\maturita\mat.c > CMakeFiles\maturita.dir\mat.c.i
+
+CMakeFiles/maturita.dir/mat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/maturita.dir/mat.c.s"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\maturita\mat.c -o CMakeFiles\maturita.dir\mat.c.s
+
+CMakeFiles/maturita.dir/mat.c.obj.requires:
+
+.PHONY : CMakeFiles/maturita.dir/mat.c.obj.requires
+
+CMakeFiles/maturita.dir/mat.c.obj.provides: CMakeFiles/maturita.dir/mat.c.obj.requires
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/mat.c.obj.provides.build
+.PHONY : CMakeFiles/maturita.dir/mat.c.obj.provides
+
+CMakeFiles/maturita.dir/mat.c.obj.provides.build: CMakeFiles/maturita.dir/mat.c.obj
+
+
+CMakeFiles/maturita.dir/anj.c.obj: CMakeFiles/maturita.dir/flags.make
+CMakeFiles/maturita.dir/anj.c.obj: ../anj.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\maturita\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/maturita.dir/anj.c.obj"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\maturita.dir\anj.c.obj   -c C:\Users\wlach\CLionProjects\maturita\anj.c
+
+CMakeFiles/maturita.dir/anj.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/maturita.dir/anj.c.i"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\maturita\anj.c > CMakeFiles\maturita.dir\anj.c.i
+
+CMakeFiles/maturita.dir/anj.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/maturita.dir/anj.c.s"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\maturita\anj.c -o CMakeFiles\maturita.dir\anj.c.s
+
+CMakeFiles/maturita.dir/anj.c.obj.requires:
+
+.PHONY : CMakeFiles/maturita.dir/anj.c.obj.requires
+
+CMakeFiles/maturita.dir/anj.c.obj.provides: CMakeFiles/maturita.dir/anj.c.obj.requires
+	$(MAKE) -f CMakeFiles\maturita.dir\build.make CMakeFiles/maturita.dir/anj.c.obj.provides.build
+.PHONY : CMakeFiles/maturita.dir/anj.c.obj.provides
+
+CMakeFiles/maturita.dir/anj.c.obj.provides.build: CMakeFiles/maturita.dir/anj.c.obj
+
+
 # Object files for target maturita
 maturita_OBJECTS = \
-"CMakeFiles/maturita.dir/main.c.obj"
+"CMakeFiles/maturita.dir/main.c.obj" \
+"CMakeFiles/maturita.dir/sjl.c.obj" \
+"CMakeFiles/maturita.dir/mat.c.obj" \
+"CMakeFiles/maturita.dir/anj.c.obj"
 
 # External object files for target maturita
 maturita_EXTERNAL_OBJECTS =
 
 maturita.exe: CMakeFiles/maturita.dir/main.c.obj
+maturita.exe: CMakeFiles/maturita.dir/sjl.c.obj
+maturita.exe: CMakeFiles/maturita.dir/mat.c.obj
+maturita.exe: CMakeFiles/maturita.dir/anj.c.obj
 maturita.exe: CMakeFiles/maturita.dir/build.make
 maturita.exe: CMakeFiles/maturita.dir/linklibs.rsp
 maturita.exe: CMakeFiles/maturita.dir/objects1.rsp
 maturita.exe: CMakeFiles/maturita.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wlach\CLionProjects\maturita\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable maturita.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wlach\CLionProjects\maturita\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable maturita.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\maturita.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -101,6 +179,9 @@ CMakeFiles/maturita.dir/build: maturita.exe
 .PHONY : CMakeFiles/maturita.dir/build
 
 CMakeFiles/maturita.dir/requires: CMakeFiles/maturita.dir/main.c.obj.requires
+CMakeFiles/maturita.dir/requires: CMakeFiles/maturita.dir/sjl.c.obj.requires
+CMakeFiles/maturita.dir/requires: CMakeFiles/maturita.dir/mat.c.obj.requires
+CMakeFiles/maturita.dir/requires: CMakeFiles/maturita.dir/anj.c.obj.requires
 
 .PHONY : CMakeFiles/maturita.dir/requires
 

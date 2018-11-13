@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/wlach/CLionProjects/maturita/anj.c" "C:/Users/wlach/CLionProjects/maturita/cmake-build-debug/CMakeFiles/maturita.dir/anj.c.obj"
   "C:/Users/wlach/CLionProjects/maturita/main.c" "C:/Users/wlach/CLionProjects/maturita/cmake-build-debug/CMakeFiles/maturita.dir/main.c.obj"
+  "C:/Users/wlach/CLionProjects/maturita/mat.c" "C:/Users/wlach/CLionProjects/maturita/cmake-build-debug/CMakeFiles/maturita.dir/mat.c.obj"
+  "C:/Users/wlach/CLionProjects/maturita/sjl.c" "C:/Users/wlach/CLionProjects/maturita/cmake-build-debug/CMakeFiles/maturita.dir/sjl.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
