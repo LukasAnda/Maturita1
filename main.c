@@ -13,7 +13,7 @@ int main() {
 
     printf("Year:\n");
     scanf("%d", &year);
-    printf("Teest number:\n");
+    printf("Test number:\n");
     scanf("%d", &test_number);
 
     if (strcmp(test_type, "sjl") == 0){

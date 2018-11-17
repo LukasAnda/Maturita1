@@ -29,19 +29,19 @@ void sjl(void){
             "        long id = 1;\n"
             "        Question ");
 
-    while (fgets(line, 700 - 1, fr) != NULL){
+    while (fgets(line, 700 - 1, fr) != NULL){                                                                           //whole line from file
         line[strlen(line) - 1] = '\0';
 
         if (strstr(line, "https://") != NULL){
             num++;
 
             if (num % 9 == 1){                                                                                           //(num == 1) || (num == 10) || (num == 19) || (num == 28) || (num == 37) || (num == 46) || (num == 55) || (num == 64)
-                strcpy(file, line);                                                                                      // prvá a potom každá deviata otázka je prvou otázkou nového dokumentu, trba pridať link, ostatné majú rovnaký ako ten predchádzajúci
+                strcpy(file, line);                                                                                      // first and every 9th starts a new document = text, which belong to the questions
             }
 
             else{
 
-                if (num != 2){                                                                                           //toto sa dáva za new quuestion, je to o jedno posunuté. čiže pri num 3 mi dáva odpovede pre num 2
+                if (num != 2){                                                                                           //goes at the end of function --> function n, writing for n-1
                     for (i = 0; i < lines; i++){
                         if (i == lines - 1){
                             fprintf(fw, "\"%s\"", p_answers[i]);
