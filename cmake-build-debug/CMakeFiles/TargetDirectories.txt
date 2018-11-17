@@ -1,3 +1,0 @@
-C:/Users/wlach/CLionProjects/maturita/cmake-build-debug/CMakeFiles/maturita.dir
-C:/Users/wlach/CLionProjects/maturita/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/wlach/CLionProjects/maturita/cmake-build-debug/CMakeFiles/rebuild_cache.dir
