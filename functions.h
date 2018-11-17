@@ -5,6 +5,10 @@
 
 #endif //MATURITA_FUNCTIONS_H
 
+typedef struct otazka{
+    int year;
+} OTAZKA;
+
 void sjl(void);
 void mat(int year, int test_number);
 void anj(void);
